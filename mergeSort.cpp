@@ -8,3 +8,8 @@ void input ()
 {
 
 }
+
+void output ()
+{
+
+}
