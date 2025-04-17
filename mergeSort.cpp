@@ -13,3 +13,8 @@ void output ()
 {
 
 }
+
+int main()
+{
+
+}
