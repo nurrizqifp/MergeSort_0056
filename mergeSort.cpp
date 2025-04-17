@@ -6,7 +6,11 @@ int n; //jumlah data yang akan dimasukkan
 
 void input ()
 {
+    
+}
 
+void mergeSort(int low, int high){
+    
 }
 
 void output ()
