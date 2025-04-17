@@ -6,7 +6,26 @@ int n; //jumlah data yang akan dimasukkan
 
 void input ()
 {
+    while (true)
+    {
+        cout << "Masukkan jumlah data = ";
+        cin >> n;
 
+        if (n <= 20)
+            break; //keluar dari loop
+        cout << "\nMaksimal panjang array adalah 20" <<endl;
+    }
+
+    cout << "=========================" << endl;
+    cout << "Inputkan isi elemen array" << endl;
+    cout << "=========================" << endl;
+    cout << endl;
+
+    for (int i = 0; i < n; i++)
+    {
+        cout << "Index ke-" << i + 1 << "=";
+        cin >> arr[i];
+    }
 }
 
 void mergeSort(int low, int high){
